@@ -1,0 +1,58 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .signup-box {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .signup-box h1 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .google-button, .create-account-button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .google-button {
+    background-color: #4285F4;
+  }
+  
+  .create-account-button {
+    background-color: #1a73e8;
+  }
+  
+  .separator {
+    margin: 10px 0;
+    color: #bbb;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
